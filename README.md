@@ -1,6 +1,8 @@
 # Machine_Coding
-Machine Coding Solutions:  
-Quetsion:<details>
+A machine Coding Solution Repo.
+ 
+Quetsion:
+<details>
   <summary>tik-tac-toe</summary>
   
     Tic-Tak-Toe is a 2 Player Game where each player take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, 
@@ -20,11 +22,11 @@ Quetsion:<details>
         Print the grid after every move.
         The user will make a move by entering the cell position(row number and column number)
         Valid move:
-         *The cell is empty
-         *column and row number are in bound of grid
+         * The cell is empty
+         * column and row number are in bound of grid
         Valid move:
-          *cell is not empty
-          *column and row number are out of bound of grid.
+          * cell is not empty
+          * column and row number are out of bound of grid.
         put the piece on the cell
         Determine if a player has won or if there are no valid moves left. Ignore all moves mentioned after that.
         A position in the cell is represented by two values: row number (0-2 or 1-3) and column number (0-2 or 1-3).
@@ -42,4 +44,5 @@ Quetsion:<details>
     Output Format
     Print the initial grid. This would be followed by the grid after each move. Print custom message for Invalid move and print grid again. If a player wins print PlayerName wins. In case of draw print Match Turned into draw.
 </details>
+
 Solution: <a href="./tic-tac-toe" target="_top">tik-tac-toe</a>
