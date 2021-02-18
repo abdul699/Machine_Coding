@@ -1,5 +1,11 @@
 # Machine_Coding
 A machine Coding Solution Repo.
+
+
+Every solution will have:\
+1.**models:** The end-user of the service or product\
+2.**services:** The actual business logic\
+3.MainProgram/DriverProgram
  
 ## Questions:
 <details>
@@ -48,6 +54,13 @@ Output Format:\
 Print the initial grid. This would be followed by the grid after each move. Print custom message for Invalid move and print grid again. If a player wins print PlayerName wins. In case of draw print Match Turned into draw.\
 solution: <a href="./tic-tac-toe" target="_top">tik-tac-toe</a>
 
+
 </details>
 
+<details>
+
+<summary>Snakes-And-Ladders</summary>
+
+
+</details>
 
