@@ -1,11 +1,11 @@
 # Machine_Coding
-A machine Coding Solution Repo.
+A machine coding solution repo.
 
 
-Every solution will have:\
-1.**models:** The end-user of the service or product\
-2.**services:** The actual business logic\
-3.MainProgram/DriverProgram
+Every solution will have:
+1. **models:** This repository contains the end-user of the application.
+2. **services:** This repository contains th actual business logic.
+3. **MainProgram/DriverProgram:** The main program.
  
 ## Questions:
 <details>
@@ -52,7 +52,7 @@ Multiple lines with each line containing the Cell Position. The row and column n
 
 Output Format:\
 Print the initial grid. This would be followed by the grid after each move. Print custom message for Invalid move and print grid again. If a player wins print PlayerName wins. In case of draw print Match Turned into draw.\
-solution: <a href="./tic-tac-toe" target="_top">tik-tac-toe</a>
+Solution: <a href="./tic-tac-toe" target="_top">tik-tac-toe</a>
 
 
 </details>
@@ -60,7 +60,25 @@ solution: <a href="./tic-tac-toe" target="_top">tik-tac-toe</a>
 <details>
 
 <summary>Snakes-And-Ladders</summary>
+Snake And Ladder is a multiPlayer board game. Every player is assigned a piece and initially all pieces are placed at position cell number 0. Players alternately throw a dice and move their piece forward by the number rolled out on dice.
 
+**Rules of the game:**
+
+Additionally there are some snakes and ladders on the board. If a player reaches a cell, where a snake is present, then the player will move backward at the tail of the snake. And if a ladder is present , then the player move forward at the top of the ladder. The player who reaches the end cell first wins the game.
+
+**Requirements:**
+
+Create a command-line application for Snakes and Ladders with the following requirements: 
+
+* Ask the user for the number of Snakes and their start and end cell number.
+* Ask the user for the number of Ladders and their start and end cell number.
+* Ask the user for the number of Players and their names.
+* Print the current player name, his/her current position, the value on dice roll and the new position.
+* Print the Player name who first win the game and end the application.
+
+**Note:** Code should be fully Object Oriented and should be extensible to new feature in game.
+
+Solution: <a href="./Snake-And-Ladders" target="_top">Snakes-And-Ladders</a>
 
 </details>
 
